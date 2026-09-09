@@ -1,0 +1,18 @@
+{
+    "my_list": [
+        "apple",
+        "banana",
+        "cherry",
+        "apple"
+    ],
+    "my_tuple": [
+        "red",
+        "green",
+        "blue"
+    ],
+    "my_set": [
+        "python",
+        "c++",
+        "java"
+    ]
+}

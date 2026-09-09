@@ -1,0 +1,4 @@
+from Testpackage import *
+
+c1 = Class1();
+c2 = Class2();

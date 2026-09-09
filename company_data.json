@@ -1,0 +1,138 @@
+{
+    "departments": [
+        {
+            "deptid": 1,
+            "deptname": "IT",
+            "location": "Pune"
+        },
+        {
+            "deptid": 2,
+            "deptname": "CS",
+            "location": "Pune"
+        },
+        {
+            "deptid": 3,
+            "deptname": "AI",
+            "location": "pune"
+        }
+    ],
+    "employees": [
+        {
+            "empid": 1001,
+            "empname": "Sahil",
+            "salary": 100.0,
+            "role": "Manager",
+            "deptid": 1,
+            "address": {
+                "street": "Punavale",
+                "city": "Pune",
+                "pincode": "123321"
+            },
+            "perks": 100.0
+        },
+        {
+            "empid": 1002,
+            "empname": "Raj",
+            "salary": 100.0,
+            "role": "Clerk",
+            "deptid": 1,
+            "address": {
+                "street": "Aundh",
+                "city": "pune",
+                "pincode": "123321"
+            },
+            "overtime": 10.0
+        },
+        {
+            "empid": 1003,
+            "empname": "Ved",
+            "salary": 100.0,
+            "role": "Salesman",
+            "deptid": 1,
+            "address": {
+                "street": "Pimpri",
+                "city": "Pune",
+                "pincode": "123321"
+            },
+            "commission": 20.0
+        },
+        {
+            "empid": 1004,
+            "empname": "Yash",
+            "salary": 200.0,
+            "role": "Manager",
+            "deptid": 2,
+            "address": {
+                "street": "Punaa",
+                "city": "pune",
+                "pincode": "234432"
+            },
+            "perks": 20.0
+        },
+        {
+            "empid": 1005,
+            "empname": "Snehal",
+            "salary": 200.0,
+            "role": "Clerk",
+            "deptid": 2,
+            "address": {
+                "street": "pimpri",
+                "city": "Pune",
+                "pincode": "345543"
+            },
+            "overtime": 20.0
+        },
+        {
+            "empid": 1006,
+            "empname": "Vansh",
+            "salary": 300.0,
+            "role": "Salesman",
+            "deptid": 2,
+            "address": {
+                "street": "Nagar",
+                "city": "Pune",
+                "pincode": "524524"
+            },
+            "commission": 20.0
+        },
+        {
+            "empid": 1007,
+            "empname": "POgo",
+            "salary": 300.0,
+            "role": "Manager",
+            "deptid": 3,
+            "address": {
+                "street": "Pimpri",
+                "city": "pune",
+                "pincode": "235245"
+            },
+            "perks": 29.0
+        },
+        {
+            "empid": 1008,
+            "empname": "JON",
+            "salary": 200.0,
+            "role": "Clerk",
+            "deptid": 3,
+            "address": {
+                "street": "Winterfell",
+                "city": "North",
+                "pincode": "767676"
+            },
+            "overtime": 52.0
+        },
+        {
+            "empid": 1009,
+            "empname": "Sansa",
+            "salary": 899.0,
+            "role": "Salesman",
+            "deptid": 3,
+            "address": {
+                "street": "Baner",
+                "city": "pune",
+                "pincode": "524524"
+            },
+            "commission": 788.0
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Operations>
+    <Operation id="OP001">
+        <Name>StartService</Name>
+        <Description>Starts the service</Description>
+        <Status>Active</Status>
+    </Operation>
+
+    <Operation id="OP002">
+        <Name>StopService</Name>
+        <Description>Stops the service</Description>
+        <Status>Active</Status>
+    </Operation>
+
+    <Operation id="OP003">
+        <Name>RestartService</Name>
+        <Description>Restarts the service</Description>
+        <Status>Active</Status>
+    </Operation>
+</Operations>

@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Employee Data (100 Records)</h2>
+
+    <table>
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Department</th>
+            <th>Designation</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>1001</td>
+            <td>Employee 1</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>51000</td>
+        </tr>
+        <tr>
+            <td>1002</td>
+            <td>Employee 2</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>52000</td>
+        </tr>
+        <tr>
+            <td>1003</td>
+            <td>Employee 3</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>53000</td>
+        </tr>
+        <tr>
+            <td>1004</td>
+            <td>Employee 4</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>54000</td>
+        </tr>
+        <tr>
+            <td>1005</td>
+            <td>Employee 5</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>55000</td>
+        </tr>
+        <tr>
+            <td>1006</td>
+            <td>Employee 6</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>56000</td>
+        </tr>
+        <tr>
+            <td>1007</td>
+            <td>Employee 7</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>57000</td>
+        </tr>
+        <tr>
+            <td>1008</td>
+            <td>Employee 8</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>58000</td>
+        </tr>
+        <tr>
+            <td>1009</td>
+            <td>Employee 9</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>59000</td>
+        </tr>
+        <tr>
+            <td>1010</td>
+            <td>Employee 10</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>60000</td>
+        </tr>
+
+        <tr>
+            <td>1011</td>
+            <td>Employee 11</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>61000</td>
+        </tr>
+        <tr>
+            <td>1012</td>
+            <td>Employee 12</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>62000</td>
+        </tr>
+        <tr>
+            <td>1013</td>
+            <td>Employee 13</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>63000</td>
+        </tr>
+        <tr>
+            <td>1014</td>
+            <td>Employee 14</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>64000</td>
+        </tr>
+        <tr>
+            <td>1015</td>
+            <td>Employee 15</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>65000</td>
+        </tr>
+        <tr>
+            <td>1016</td>
+            <td>Employee 16</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>66000</td>
+        </tr>
+        <tr>
+            <td>1017</td>
+            <td>Employee 17</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>67000</td>
+        </tr>
+        <tr>
+            <td>1018</td>
+            <td>Employee 18</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>68000</td>
+        </tr>
+        <tr>
+            <td>1019</td>
+            <td>Employee 19</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>69000</td>
+        </tr>
+        <tr>
+            <td>1020</td>
+            <td>Employee 20</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>70000</td>
+        </tr>
+
+        <tr>
+            <td>1021</td>
+            <td>Employee 21</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>71000</td>
+        </tr>
+        <tr>
+            <td>1022</td>
+            <td>Employee 22</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>72000</td>
+        </tr>
+        <tr>
+            <td>1023</td>
+            <td>Employee 23</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>73000</td>
+        </tr>
+        <tr>
+            <td>1024</td>
+            <td>Employee 24</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>74000</td>
+        </tr>
+        <tr>
+            <td>1025</td>
+            <td>Employee 25</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>75000</td>
+        </tr>
+        <tr>
+            <td>1026</td>
+            <td>Employee 26</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>76000</td>
+        </tr>
+        <tr>
+            <td>1027</td>
+            <td>Employee 27</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>77000</td>
+        </tr>
+        <tr>
+            <td>1028</td>
+            <td>Employee 28</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>78000</td>
+        </tr>
+        <tr>
+            <td>1029</td>
+            <td>Employee 29</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>79000</td>
+        </tr>
+        <tr>
+            <td>1030</td>
+            <td>Employee 30</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>80000</td>
+        </tr>
+
+        <tr>
+            <td>1031</td>
+            <td>Employee 31</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>81000</td>
+        </tr>
+        <tr>
+            <td>1032</td>
+            <td>Employee 32</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>82000</td>
+        </tr>
+        <tr>
+            <td>1033</td>
+            <td>Employee 33</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>83000</td>
+        </tr>
+        <tr>
+            <td>1034</td>
+            <td>Employee 34</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>84000</td>
+        </tr>
+        <tr>
+            <td>1035</td>
+            <td>Employee 35</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>85000</td>
+        </tr>
+        <tr>
+            <td>1036</td>
+            <td>Employee 36</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>86000</td>
+        </tr>
+        <tr>
+            <td>1037</td>
+            <td>Employee 37</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>87000</td>
+        </tr>
+        <tr>
+            <td>1038</td>
+            <td>Employee 38</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>88000</td>
+        </tr>
+        <tr>
+            <td>1039</td>
+            <td>Employee 39</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>89000</td>
+        </tr>
+        <tr>
+            <td>1040</td>
+            <td>Employee 40</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>90000</td>
+        </tr>
+
+        <tr>
+            <td>1041</td>
+            <td>Employee 41</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>91000</td>
+        </tr>
+        <tr>
+            <td>1042</td>
+            <td>Employee 42</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>92000</td>
+        </tr>
+        <tr>
+            <td>1043</td>
+            <td>Employee 43</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>93000</td>
+        </tr>
+        <tr>
+            <td>1044</td>
+            <td>Employee 44</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>94000</td>
+        </tr>
+        <tr>
+            <td>1045</td>
+            <td>Employee 45</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>95000</td>
+        </tr>
+        <tr>
+            <td>1046</td>
+            <td>Employee 46</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>96000</td>
+        </tr>
+        <tr>
+            <td>1047</td>
+            <td>Employee 47</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>97000</td>
+        </tr>
+        <tr>
+            <td>1048</td>
+            <td>Employee 48</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>98000</td>
+        </tr>
+        <tr>
+            <td>1049</td>
+            <td>Employee 49</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>99000</td>
+        </tr>
+        <tr>
+            <td>1050</td>
+            <td>Employee 50</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>100000</td>
+        </tr>
+
+        <tr>
+            <td>1051</td>
+            <td>Employee 51</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>101000</td>
+        </tr>
+        <tr>
+            <td>1052</td>
+            <td>Employee 52</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>102000</td>
+        </tr>
+        <tr>
+            <td>1053</td>
+            <td>Employee 53</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>103000</td>
+        </tr>
+        <tr>
+            <td>1054</td>
+            <td>Employee 54</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>104000</td>
+        </tr>
+        <tr>
+            <td>1055</td>
+            <td>Employee 55</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>105000</td>
+        </tr>
+        <tr>
+            <td>1056</td>
+            <td>Employee 56</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>106000</td>
+        </tr>
+        <tr>
+            <td>1057</td>
+            <td>Employee 57</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>107000</td>
+        </tr>
+        <tr>
+            <td>1058</td>
+            <td>Employee 58</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>108000</td>
+        </tr>
+        <tr>
+            <td>1059</td>
+            <td>Employee 59</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>109000</td>
+        </tr>
+        <tr>
+            <td>1060</td>
+            <td>Employee 60</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>110000</td>
+        </tr>
+
+        <tr>
+            <td>1061</td>
+            <td>Employee 61</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>111000</td>
+        </tr>
+        <tr>
+            <td>1062</td>
+            <td>Employee 62</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>112000</td>
+        </tr>
+        <tr>
+            <td>1063</td>
+            <td>Employee 63</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>113000</td>
+        </tr>
+        <tr>
+            <td>1064</td>
+            <td>Employee 64</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>114000</td>
+        </tr>
+        <tr>
+            <td>1065</td>
+            <td>Employee 65</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>115000</td>
+        </tr>
+        <tr>
+            <td>1066</td>
+            <td>Employee 66</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>116000</td>
+        </tr>
+        <tr>
+            <td>1067</td>
+            <td>Employee 67</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>117000</td>
+        </tr>
+        <tr>
+            <td>1068</td>
+            <td>Employee 68</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>118000</td>
+        </tr>
+        <tr>
+            <td>1069</td>
+            <td>Employee 69</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>119000</td>
+        </tr>
+        <tr>
+            <td>1070</td>
+            <td>Employee 70</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>120000</td>
+        </tr>
+
+        <tr>
+            <td>1071</td>
+            <td>Employee 71</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>121000</td>
+        </tr>
+        <tr>
+            <td>1072</td>
+            <td>Employee 72</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>122000</td>
+        </tr>
+        <tr>
+            <td>1073</td>
+            <td>Employee 73</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>123000</td>
+        </tr>
+        <tr>
+            <td>1074</td>
+            <td>Employee 74</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>124000</td>
+        </tr>
+        <tr>
+            <td>1075</td>
+            <td>Employee 75</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>125000</td>
+        </tr>
+        <tr>
+            <td>1076</td>
+            <td>Employee 76</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>126000</td>
+        </tr>
+        <tr>
+            <td>1077</td>
+            <td>Employee 77</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>127000</td>
+        </tr>
+        <tr>
+            <td>1078</td>
+            <td>Employee 78</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>128000</td>
+        </tr>
+        <tr>
+            <td>1079</td>
+            <td>Employee 79</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>129000</td>
+        </tr>
+        <tr>
+            <td>1080</td>
+            <td>Employee 80</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>130000</td>
+        </tr>
+
+        <tr>
+            <td>1081</td>
+            <td>Employee 81</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>131000</td>
+        </tr>
+        <tr>
+            <td>1082</td>
+            <td>Employee 82</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>132000</td>
+        </tr>
+        <tr>
+            <td>1083</td>
+            <td>Employee 83</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>133000</td>
+        </tr>
+        <tr>
+            <td>1084</td>
+            <td>Employee 84</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>134000</td>
+        </tr>
+        <tr>
+            <td>1085</td>
+            <td>Employee 85</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>135000</td>
+        </tr>
+        <tr>
+            <td>1086</td>
+            <td>Employee 86</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>136000</td>
+        </tr>
+        <tr>
+            <td>1087</td>
+            <td>Employee 87</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>137000</td>
+        </tr>
+        <tr>
+            <td>1088</td>
+            <td>Employee 88</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>138000</td>
+        </tr>
+        <tr>
+            <td>1089</td>
+            <td>Employee 89</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>139000</td>
+        </tr>
+        <tr>
+            <td>1090</td>
+            <td>Employee 90</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>140000</td>
+        </tr>
+
+        <tr>
+            <td>1091</td>
+            <td>Employee 91</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>141000</td>
+        </tr>
+        <tr>
+            <td>1092</td>
+            <td>Employee 92</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>142000</td>
+        </tr>
+        <tr>
+            <td>1093</td>
+            <td>Employee 93</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>143000</td>
+        </tr>
+        <tr>
+            <td>1094</td>
+            <td>Employee 94</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>144000</td>
+        </tr>
+        <tr>
+            <td>1095</td>
+            <td>Employee 95</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>145000</td>
+        </tr>
+        <tr>
+            <td>1096</td>
+            <td>Employee 96</td>
+            <td>IT</td>
+            <td>Engineer</td>
+            <td>146000</td>
+        </tr>
+        <tr>
+            <td>1097</td>
+            <td>Employee 97</td>
+            <td>HR</td>
+            <td>Analyst</td>
+            <td>147000</td>
+        </tr>
+        <tr>
+            <td>1098</td>
+            <td>Employee 98</td>
+            <td>Finance</td>
+            <td>Manager</td>
+            <td>148000</td>
+        </tr>
+        <tr>
+            <td>1099</td>
+            <td>Employee 99</td>
+            <td>Sales</td>
+            <td>Lead</td>
+            <td>149000</td>
+        </tr>
+        <tr>
+            <td>1100</td>
+            <td>Employee 100</td>
+            <td>Marketing</td>
+            <td>Executive</td>
+            <td>150000</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
